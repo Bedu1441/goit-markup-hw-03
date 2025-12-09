@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebStudio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KV9vAd6lWGL0CfjEBmbi9e21STZCkLZfWN39DCE8JQIb11g6WZV5ecis7S8oo6w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="page-header">
+      <div class="container header-container">
+        <a href="./index.html" class="logo">WebStudio</a>
+
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li><a class="nav-link current" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-list">
+          <li>
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ===== Main ===== -->
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-button" type="button">Order Service</button>
+        </div>
+      </section>
+
+      <!-- Features section -->
+      <section class="section features">
+        <div class="container">
+          <h2 class="section-title visually-hidden">Our Features</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-subtitle">Strategy</h3>
+              <p class="features-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-subtitle">Punctuality</h3>
+              <p class="features-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-subtitle">Diligence</h3>
+              <p class="features-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-subtitle">Technologies</h3>
+              <p class="features-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- What we do section -->
+      <section class="section doing">
+        <div class="container">
+          <h2 class="section-title">What Are We Doing</h2>
+          <ul class="doing-list">
+            <li class="doing-item">
+              <img
+                src="./images/what-we-do-1.jpg"
+                alt="Desktop application interface on a monitor"
+                width="360"
+              />
+            </li>
+            <li class="doing-item">
+              <img
+                src="./images/what-we-do-2.jpg"
+                alt="Mobile application interface on a smartphone"
+                width="360"
+              />
+            </li>
+            <li class="doing-item">
+              <img
+                src="./images/what-we-do-3.jpg"
+                alt="Responsive website layout on multiple devices"
+                width="360"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team section -->
+      <section class="section team">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-item">
+              <img
+                src="./images/p1_opt.jpg"
+                alt="Product Designer Mark Guerrero"
+                width="264"
+              />
+              <div class="team-card">
+                <h3 class="team-name">Mark Guerrero</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/p2_opt.jpg"
+                alt="Frontend Developer Tom Ford"
+                width="264"
+              />
+              <div class="team-card">
+                <h3 class="team-name">Tom Ford</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/p3_opt.jpg"
+                alt="Marketing specialist Camila Garcia"
+                width="264"
+              />
+              <div class="team-card">
+                <h3 class="team-name">Camila Garcia</h3>
+                <p class="team-position">Marketing</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/p4_opt.jpg"
+                alt="UI Designer Daniel Wilson"
+                width="264"
+              />
+              <div class="team-card">
+                <h3 class="team-name">Daniel Wilson</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Portfolio section -->
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="section-title">Our Portfolio</h2>
+
+          <ul class="portfolio-filter-list">
+            <li><button class="filter-button" type="button">All</button></li>
+            <li>
+              <button class="filter-button" type="button">Web Site</button>
+            </li>
+            <li><button class="filter-button" type="button">App</button></li>
+            <li><button class="filter-button" type="button">Design</button></li>
+            <li>
+              <button class="filter-button" type="button">Marketing</button>
+            </li>
+          </ul>
+
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-1.jpg"
+                  alt="Banking app interface on a smartphone"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Banking App Interface Concept</h3>
+                  <p class="portfolio-text">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-2.jpg"
+                  alt="Cashless payment with phone"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Cashless Payment</h3>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-3.jpg"
+                  alt="Meditation app interface"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Meditation App</h3>
+                  <p class="portfolio-text">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-4.jpg"
+                  alt="Taxi service on a smartphone"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Taxi Service</h3>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-5.jpg"
+                  alt="Screen with phone illustrations"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Screen Illustrations</h3>
+                  <p class="portfolio-text">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-6.jpg"
+                  alt="Online courses on laptop"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Online Courses</h3>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-7.jpg"
+                  alt="Instagram stories concept"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Instagram Stories Concept</h3>
+                  <p class="portfolio-text">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-8.jpg"
+                  alt="Woman with food organic products"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Organic Food</h3>
+                  <p class="portfolio-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-9.jpg"
+                  alt="Cup of coffee in hand"
+                  width="360"
+                />
+                <div class="portfolio-card">
+                  <h3 class="portfolio-title">Fresh Coffee</h3>
+                  <p class="portfolio-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="page-footer" id="contacts">
+      <div class="container footer-container">
+        <a href="./index.html" class="logo footer-logo">WebStudio</a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing &amp; growth solutions.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
