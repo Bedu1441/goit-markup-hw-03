@@ -216,32 +216,6 @@ a {
 }
 
 /* =====================
-  What Are We Doing
-===================== */
-.doing {
-  padding-bottom: 120px;
-}
-
-.doing-title {
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.doing-list {
-  display: flex;
-  gap: 24px;
-}
-
-.doing-item {
-  width: calc((100% - 48px) / 3);
-}
-
-/* =====================
   Team
 ===================== */
 .team {
