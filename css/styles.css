@@ -4,8 +4,13 @@ body {
   background-color: #ffffff;
 }
 
-/* remove underline for all links (fix #1) */
+/* remove underline for all links */
 a {
+  text-decoration: none;
+}
+
+/* extra guarantee for logo (header + footer) */
+.logo {
   text-decoration: none;
 }
 
@@ -21,11 +26,13 @@ a {
   color: #4d5ae5;
 }
 
-.logo-studio {
+/* "Studio" part in header logo */
+.logo-accent {
   color: #2e2f42;
 }
 
-.nav-link {
+/* menu links */
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,8 +40,8 @@ a {
   color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -85,15 +92,6 @@ a {
 }
 
 /* ================= ADVANTAGES ================= */
-
-.advantages-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 
 .advantages-subtitle {
   font-weight: 500;
@@ -176,18 +174,13 @@ a {
   background-color: #2e2f42;
 }
 
-/* footer logo should follow макет (fix #4) */
+/* footer logo styles from макету */
 .footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 
-.footer-logo-studio {
+/* "Studio" part in footer logo */
+.footer-accent {
   color: #f4f4fd;
 }
 
